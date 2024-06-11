@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Mostrar la pantalla de selección de dinosaurios al cargar la página */
+.selection-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilizar los dinosaurios para mostrarlos en una lista horizontal */
+.dino-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dino-option {
+    margin: 10px;
+}
+
+.dino-option img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.game-container {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    background-size: cover;
+}
+
+.dino {
+    background-size: cover;
+}
+
+.water {
+    background-color: #00f; /* Color azul para el agua */
+}
+
+.rock {
+    background-color: #888; /* Color gris para las rocas */
+}
+
+.grass {
+    background-color: #6c9a44; /* Color verde para el pasto */
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 10px;
+    cursor: pointer; /* Hacer los botones clickeables */
+}

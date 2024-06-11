@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Angel T.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="selection-screen">
+        <h2>Selecciona tu dinosaurio</h2>
+        <div class="dino-options">
+            <div class="dino-option" data-dino="1">
+                <img src="1.gif" alt="Dino 1">
+            </div>
+            <div class="dino-option" data-dino="2">
+                <img src="2.gif" alt="Dino 2">
+            </div>
+            <div class="dino-option" data-dino="3">
+                <img src="3.gif" alt="Dino 3">
+            </div>
+        </div>
+    </div>
+    <div class="game-container" style="display: none;">
+        <div class="grid"></div>
+        <div class="message" id="message">Encuentra el tesoro siguiendo las pistas!</div>
+        <div class="controls">
+            <button class="control-button" data-direction="up">?</button>
+            <div class="horizontal-controls">
+                <button class="control-button" data-direction="left">?</button>
+                <button class="control-button" data-direction="down">?</button>
+                <button class="control-button" data-direction="right">?</button>
+            </div>
+        </div>
+        <button class="reset-button" style="display: none;">Volver a jugar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
